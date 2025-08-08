@@ -1,0 +1,70 @@
+        body{
+			background-color:#474747;
+			margin: 45px;
+			font-family: "Courier New", monospace;
+			color:#F2F2F2;
+		}
+					
+		.encabezado{
+			border:solid;
+			background-color:#D2122E;
+			text-align:center;
+		}
+		table{
+			background-color:#000000;
+		}
+		th, td {
+			border-bottom: 1px solid #1A1A1A;
+		}
+		tr:nth-child(even) {background-color: #474747;}
+		th {
+			background-color: #D2122E;
+			color: FFB400;
+		}		
+		nav a{
+            border: solid;
+            gap: 5%;
+			color: #FFB400;	
+            margin: 5px;
+		}
+		.titulo{
+			color: ##FFB400;
+		}
+        .juegos{
+            display: grid;
+            width: 50%;
+        }
+		.guardarFormulario{
+			text-align:center;
+		}
+		.caratula{
+			width:65px; 
+			height:65px; 
+		}
+		.seccion{
+			border:solid;
+		}
+		.botoninicio{
+			text-align: left;
+		}
+		.botonregistro{
+			text-align: right;
+		}
+		.valoracionboton {
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		.valoracionboton:hover {
+			background-color: #FF6A00;
+		}	
+		.valoracionboton:active {
+			background-color: #3e8e41;
+		}
+		.Advertencia{
+			color: red;
+		}
+

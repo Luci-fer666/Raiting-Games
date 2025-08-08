@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raiting Gaming</title>
+	<link rel="stylesheet" href="EstiloPage.css">
+</head>
+
+<body>
+<header class="encabezado">
+	<p class="titulo"><strong>Raiting Gaming</strong></p>
+	<img src="https://cdn.dribbble.com/users/3205217/screenshots/6780133/gaming_logo_4x.jpg" width= "120px" height= "120px">
+	
+	<nav>
+	<p><span><a href="RaitingGaming.php" class="butoninicio">Inicio</a></span>
+	<span><a href="Formulario.html">SubirJuegos</a></span>
+	<span><a href="registrarse.html" >Acceder</a></span></p>
+	</nav>
+</header>
+
+<div>
+	<form action="controlregistrarse.php" method="post">
+		<p>Nombre y Apellido: <input type="text" placeholder="Nombre y Apellido" name="DatoNombre" required></p>
+		<p>Nombre de usuario: <input type="text" placeholder="Nombre de Usuario" name="DatoUsuario" required></p>
+		<p>Email: <input type="email" placeholder="Email" name="DatoEmail" required></p>
+		<p>Repetir email: <input type="email"  placeholder="Repetir Email" name="DatoEmail2" required></p>
+		<p>Contrasenia: <input type="password" placeholder = "Contrasenia" name="DatoContrasenia" required></p>
+		<p>Repetir Contrasenia:<input type="password" placeholder= "Repetir Contrasenia" name="DatoContrasenia2" required></p>
+		<p>URL imagen de perfil: <input type="url" placeholder="URL de Imagen" name="DatoImagen" required></p>
+
+	<p><span><button type="submit">Registrarse</button></span>
+	<span><button type="reset">Reset</button></span></p>
+	<p><a href="iniciarsesion.html">Ya tengo una cuenta</a></p>
+
+	</form>
+</div>
+</body>
+</html>
